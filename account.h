@@ -12,7 +12,7 @@ class Account {
         string password;
 
     public:
-        Account();
+        Account() {};
         Account(string new_email, string new_username, string new_password);
 };
 
