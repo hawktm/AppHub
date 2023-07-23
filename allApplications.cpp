@@ -25,7 +25,16 @@ using namespace std;
 
 void AllApplications::printApps() {
     for (int i = 0; i < all_apps.size(); i++) {
-        cout << all_apps.at(i).getName();
-        cout << "\n";
+        cout << "App #" << (i + 1) << "\n";
+        cout << "Name: " << all_apps.at(i).getName() << "\n";
+        cout << "Description: " << all_apps.at(i).getDescription() << "\n";
+        cout << "Organization: " << all_apps.at(i).getOrganization() << "\n";
+        cout << "Plaforms: \n";
+        for (int j = 0; j < all_apps.at(i).getPlatforms().size(); j++) {
+            cout << "\t" << all_apps.at(i).getPlatforms().at(j) << "\t";
+            cout << all_apps.at(i).getVersions().at(j) << "\t";
+            cout << all_apps.at(i).getLinks().at(j) << "\n";
+        }
+        cout << "Price: " << all_apps.at(i).getPrice() << "\n";
     }
 }

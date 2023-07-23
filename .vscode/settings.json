@@ -3,5 +3,10 @@
         "iostream": "cpp",
         "string": "cpp",
         "typeinfo": "cpp"
+    },
+    "launch": {
+    
+        "configurations": [],
+        "compounds": []
     }
 }

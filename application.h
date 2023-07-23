@@ -28,6 +28,11 @@ class Application {
         void setOrganization(string app_organization) {organization = app_organization;}
         void setPrice(double app_price) {price = app_price;}
         void addPlatform(string new_platform, string new_version, string new_link);
+        void clearPlatforms() {
+            platforms.clear();
+            versions.clear();
+            links.clear();
+        }
         
         // Get functions to get values of attributes
         string getName() {return name;}
