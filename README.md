@@ -1,5 +1,3 @@
-# AppHub
-
 # Frontend created with create-react-app to start
 
 # Interface adapted from tutorial for multi-page React app:
