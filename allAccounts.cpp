@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-bool AllAccounts::checkAccounts(string new_email, string new_username) {
+bool AllAccounts::accountAvailable(string new_email, string new_username) {
     bool email_taken = false;
     bool user_taken = false;
     
@@ -36,7 +36,7 @@ bool AllAccounts::checkAccounts(string new_email, string new_username) {
 }
 
 Account AllAccounts::registration(string new_email, string new_username, string new_password) {
-    bool account_available = checkAccounts(new_email, new_username);
+    bool account_available = accountAvailable(new_email, new_username);
     Account new_account;
 
     if (account_available == true) {

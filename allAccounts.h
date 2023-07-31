@@ -15,7 +15,7 @@ class AllAccounts {
     public:
         // Function to check if account information taken
         // Returns true if available, returns false if not
-        bool checkAccounts(string new_email, string new_username);
+        bool accountAvailable(string new_email, string new_username);
 
         // Function to create a new account
         // Calls checkAccounts to check credentials against those already used
