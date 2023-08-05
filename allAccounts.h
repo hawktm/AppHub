@@ -1,6 +1,6 @@
 #ifndef ALLACCOUNTS_H
 #define ALLACCOUNTS_H
-#include "Account.cpp"
+#include "user.cpp"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -20,7 +20,7 @@ class AllAccounts {
         // Function to create a new account
         // Calls checkAccounts to check credentials against those already used
         // Returns filled in account if successfull, returns empty account if not
-        Account registration(string new_email, string new_username, string new_password);
+        User registration(string new_email, string new_username, string new_password);
 
 
         // Function to check login credentials

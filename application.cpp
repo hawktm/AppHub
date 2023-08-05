@@ -23,3 +23,19 @@ void Application::addPlatform(string new_platform, string new_version, string ne
     versions.push_back(new_version);
     links.push_back(new_link);
 }
+
+void Application::clearPlatforms() {
+    platforms.clear();
+    versions.clear();
+    links.clear();
+}
+
+void Application::print() {
+    cout << "Name: " << name;
+    cout << "\nDescription: " << description;
+    cout << "\nOrganization: " << organization << "\n";
+    for (int i = 0; i < platforms.size(); i++) {
+        cout << "Platform: " << platforms.at(i) << ",\tVersion: " << versions.at(i) << ",\tLink: " << links.at(i) << "\n";
+    }
+    cout << "Price: " << price;
+}

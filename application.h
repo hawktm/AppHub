@@ -38,6 +38,12 @@ class Application {
         vector<string> getVersions() {return versions;}
         vector<string> getLinks() {return links;}
 
+        // Function to clear platforms
+        void clearPlatforms();
+
+        // Prints application information
+        void print();
+
 };
 
 

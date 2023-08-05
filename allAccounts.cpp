@@ -35,21 +35,21 @@ bool AllAccounts::accountAvailable(string new_email, string new_username) {
 
 }
 
-Account AllAccounts::registration(string new_email, string new_username, string new_password) {
+User AllAccounts::registration(string new_email, string new_username, string new_password) {
     bool account_available = accountAvailable(new_email, new_username);
-    Account new_account;
+    User new_user;
 
     if (account_available == true) {
         // Create new account and return it
-        new_account.setEmail(new_email);
-        new_account.setUsername(new_username);
-        new_account.setPassword(new_password);
+        new_user.setEmail(new_email);
+        new_user.setUsername(new_username);
+        new_user.setPassword(new_password);
 
         emails.push_back(new_email);
         usernames.push_back(new_username);
         passwords.push_back(new_password);
     }
-    return new_account;
+    return new_user;
 
 }
 
