@@ -1,0 +1,29 @@
+Start testing: Aug 05 19:45 Eastern Daylight Time
+----------------------------------------------------------
+10/10 Testing: allApplications.sort_revers_test
+10/10 Test: allApplications.sort_revers_test
+Command: "C:/Users/teres/Documents/1 - Software Engineering/AppHub/build/mytests.exe" "--gtest_filter=allApplications.sort_revers_test" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/teres/Documents/1 - Software Engineering/AppHub/build
+"allApplications.sort_revers_test" start time: Aug 05 19:45 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = allApplications.sort_revers_test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from allApplications
+[ RUN      ] allApplications.sort_revers_test
+[       OK ] allApplications.sort_revers_test (0 ms)
+[----------] 1 test from allApplications (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"allApplications.sort_revers_test" end time: Aug 05 19:45 Eastern Daylight Time
+"allApplications.sort_revers_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 05 19:45 Eastern Daylight Time
