@@ -1,0 +1,12 @@
+application.create_app_test 10 0.0175101
+application.create_filled_app_test 11 0.0506774
+application.attributes_test 11 0.01586
+application.clear_platforms_test 11 0.0157906
+user.create_user_test 11 0.0165987
+user.create_filled_user_test 11 0.016466
+user.attributes_test 11 0.015581
+allApplications.sort_function_present_test 8 0.0172689
+allApplications.sort_by_name_test 6 0.0158476
+allApplications.sort_forward_test 2 0.0158962
+allApplications.sort_revers_test 1 0.0151695
+---

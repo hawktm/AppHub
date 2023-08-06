@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230805-2239-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.27.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-9SLB53T"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="37414"
+	TotalPhysicalMemory="32550"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2592"
+	>
+	<Testing>
+		<StartDateTime>Aug 05 19:45 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1691279127</StartTestTime>
+		<TestList>
+			<Test>./allApplications.sort_revers_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>allApplications.sort_revers_test</Name>
+			<Path>.</Path>
+			<FullName>./allApplications.sort_revers_test</FullName>
+			<FullCommandLine>"C:\Users\teres\Documents\1 - Software Engineering\AppHub\build\mytests.exe" "--gtest_filter=allApplications.sort_revers_test" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0151695</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\Users\teres\Documents\1 - Software Engineering\AppHub\build\mytests.exe" "--gtest_filter=allApplications.sort_revers_test" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkE8LgkAQxe/7KeaYB6WuQQeh6BBY9OckIltNsrDOyO5YXz9TkhQC32lgfsy89xIWXMKWubAIZ/QCD2MFHaxAWxtXlTU3LYbJR56d5A6f6HwuDanSVa8MjjWRoQIWIO0Vx+V39rURjFQa9spga/mqbbdHehrHVCI1LEpYVyP49+bIlUrheEmgVTbBckfCfjeBhtkcSh9M9tLxICzaBmpaXkHtwju/aNjmvxbBaYqGf5pIh/h02qw/BXRspN6Xb5gO====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 05 19:45 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1691279127</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
